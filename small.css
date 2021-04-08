@@ -1,0 +1,19 @@
+header{
+    height: 85%;
+  }
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(230,218,51,1);
+    width: 400px;
+    height: 200px;
+    text-align: center;
+  }
+
+.header-text h1 {
+    font-size: 35px;
+    line-height: 45px !important;
+  }

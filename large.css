@@ -1,0 +1,41 @@
+header{
+  background: rgba(232, 227, 29, 1.0);
+background: -webkit-radial-gradient(bottom left, rgba(230,218,51,1), rgba(255, 255, 255, 1.0));
+background: -moz-radial-gradient(bottom left, rgba(230,218,51,1), rgba(255, 255, 255, 1.0));
+background: radial-gradient(to top right, rgba(230,218,51,1), rgba(255, 255, 255, 1.0));
+}
+
+.header-img{
+  background: url(img/tło.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 93%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.brand-logo{
+    background: url(img/logomale.jpg);
+    height: 63px;
+    width: 56px;
+  }
+  
+  .header-text, .header-bg{
+    display: none;
+  }
+
+  #photos h2{
+    font-size: 45px;
+  }
+
+ /*gallery*/
+
+ .carusel{
+  position: relative;
+  max-width: 700px;
+  height: 600px;
+  max-height: 100vh;
+  margin: 20px auto;
+  overflow: hidden;
+  user-select: none;
+}
