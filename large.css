@@ -1,8 +1,7 @@
 header{
-  background: rgba(232, 227, 29, 1.0);
-background: -webkit-radial-gradient(bottom left, rgba(230,218,51,1), rgba(255, 255, 255, 1.0));
+
 background: -moz-radial-gradient(bottom left, rgba(230,218,51,1), rgba(255, 255, 255, 1.0));
-background: radial-gradient(to top right, rgba(230,218,51,1), rgba(255, 255, 255, 1.0));
+
 }
 
 .header-img{
@@ -24,18 +23,38 @@ background: radial-gradient(to top right, rgba(230,218,51,1), rgba(255, 255, 255
     display: none;
   }
 
-  #photos h2{
+  #trainers h2{
     font-size: 45px;
+  }
+
+ .container{
+    width: 100% !important;
   }
 
  /*gallery*/
 
+ #gallery{
+  margin: 0;
+  padding: 0;
+  width: 100% !important;
+ }
+
  .carusel{
   position: relative;
-  max-width: 700px;
+  max-width: 800px;
   height: 600px;
   max-height: 100vh;
   margin: 20px auto;
   overflow: hidden;
   user-select: none;
+}
+
+#place{
+  margin-left: 15px;
+}
+
+.fab{
+  margin-top: 11px;
+  color: #4c79db;
+  font-size: 40px;
 }

@@ -8,7 +8,6 @@ header{
   background: url(img/rekawice1.jpg);
   background-size: cover;
   background-position: center;
-  
 }
 
 .nav-wrapper{
@@ -75,13 +74,22 @@ h1 span{
 .about-club p{
   margin: 15px;
   padding-bottom: 20px;
+  margin-bottom: 0px;
 }
 
-#photos{
-  background-color: #fff;
+#trainers{
+  background: rgba(108, 109, 108, 1.0);
+background: -webkit-linear-gradient(top right, rgba(108, 109, 108, 1.0), rgba(255, 255, 255, 1.0));
+background: -moz-linear-gradient(top right, rgba(108, 109, 108, 1.0), rgba(255, 255, 255, 1.0));
+background: linear-gradient(to bottom left, rgba(108, 109, 108, 1.0), rgba(255, 255, 255, 1.0));
 }
 
-#photos h2{
+.container{
+  width: 100vw !important;
+  max-width: 100%;
+}
+
+#trainers h2{
   font-size: 30px;
 }
 
@@ -101,13 +109,12 @@ h1 span{
 /*gallery*/
 
 
-
 .carusel{
   position: relative;
-  max-width: 400px;
+  max-width: 800px;
   height: 400px;
   max-height: 100vh;
-  margin: 20px auto;
+  margin: 10px auto;
   overflow: hidden;
   user-select: none;
 }
@@ -154,3 +161,12 @@ input:checked+div+input+div+input+div .carusel__arrow {right: 0;}
 
 input:checked+div .carusel__arrow:before {content: '❰';}
 input:checked+div+input+div+input+div .carusel__arrow:before{content: '❱';}
+
+.footer{
+  background-color: rgb(99, 99, 99);
+}
+
+.fab{
+  font-size: 35px;
+  color: #3b5998;
+}

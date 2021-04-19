@@ -8,7 +8,11 @@ header{
     
 }
 
-#photos h2{
+#trainers h2{
   font-size: 35px;
+}
+
+.container{
+  width: 100vw !important;
 }
 
