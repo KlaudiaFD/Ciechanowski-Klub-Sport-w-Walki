@@ -16,3 +16,7 @@ header{
   width: 100vw !important;
 }
 
+iframe{
+  width:400px;
+  height:300px;
+}

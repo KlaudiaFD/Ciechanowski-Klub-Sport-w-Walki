@@ -1,3 +1,9 @@
+body{
+  background: rgb(255,255,255);
+  background: linear-gradient(269deg, rgba(255,255,255,1) 0%, rgba(69,69,68,1) 100%); 
+}
+
+
 header{
   height: 92%;
   
@@ -25,6 +31,8 @@ header{
 .tabs .tab a:focus, .tabs .tab a:focus.active{
   background: transparent;
 }
+
+
 
 /*header*/
 .header-bg {
@@ -59,13 +67,75 @@ h1 span{
   text-transform: uppercase;
 }
 
-/*klub*/
-.about-club{
-  background: rgba(232, 227, 29, 1.0);
-  background: -webkit-radial-gradient(top left, rgba(230,218,51,1), rgba(255, 255, 255, 1.0));
-  background: -moz-radial-gradient(top left, rgba(230,218,51,1), rgba(255, 255, 255, 1.0));
-  background: radial-gradient(to bottom right, rgba(230,218,51,1), rgba(255, 255, 255, 1.0));
+
+/* informacje*/
+
+#all-information{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  justify-content: center;
 }
+
+.trainers-information{
+  display: flex;
+  width: 70%;
+  height: 100px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-image: url(img/board-784363_640.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: rgb(255,255,255);
+  background: linear-gradient(160deg, rgba(255,255,255,1) 0%, rgba(0,116,255,1) 100%);  */
+}
+
+.graphic-information{
+  display: flex;
+  background-image: url(img/calendar-660670_640.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: rgb(255,255,255);
+  background: linear-gradient(212deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);  */
+  width: 70%;
+  height: 100px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+
+.gallery-information{
+  display: flex;
+  background-image: url(img/worek.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: rgb(255,255,255);
+  background: linear-gradient(159deg, rgba(255,255,255,1) 0%, rgba(230,218,51,1) 100%);  */
+  width: 70%;
+  height: 100px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.all a{
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  align-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+
+/*klub*/
 .about-club h1{
   margin: 0px;
   text-align: center;
@@ -78,10 +148,10 @@ h1 span{
 }
 
 #trainers{
-  background: rgba(108, 109, 108, 1.0);
+  /* background: rgba(108, 109, 108, 1.0);
 background: -webkit-linear-gradient(top right, rgba(108, 109, 108, 1.0), rgba(255, 255, 255, 1.0));
 background: -moz-linear-gradient(top right, rgba(108, 109, 108, 1.0), rgba(255, 255, 255, 1.0));
-background: linear-gradient(to bottom left, rgba(108, 109, 108, 1.0), rgba(255, 255, 255, 1.0));
+background: linear-gradient(to bottom left, rgba(108, 109, 108, 1.0), rgba(255, 255, 255, 1.0)); */
 }
 
 .container{
@@ -91,6 +161,10 @@ background: linear-gradient(to bottom left, rgba(108, 109, 108, 1.0), rgba(255, 
 
 #trainers h2{
   font-size: 30px;
+}
+
+#trainers img{
+  width: 250px;
 }
 
 
@@ -164,6 +238,11 @@ input:checked+div+input+div+input+div .carusel__arrow:before{content: '❱';}
 
 .footer{
   background-color: rgb(99, 99, 99);
+}
+
+iframe{
+  width:350px;
+  height:250px;
 }
 
 .fab{

@@ -1,7 +1,6 @@
 header{
-
-background: -moz-radial-gradient(bottom left, rgba(230,218,51,1), rgba(255, 255, 255, 1.0));
-
+  /* background: rgb(255,255,255);
+  background: linear-gradient(269deg, rgba(255,255,255,1) 0%, rgba(69,69,68,1) 100%);  */
 }
 
 .header-img{
@@ -13,15 +12,38 @@ background: -moz-radial-gradient(bottom left, rgba(230,218,51,1), rgba(255, 255,
   margin: 0px;
 }
 
-.brand-logo{
-    background: url(img/logomale.jpg);
-    height: 63px;
-    width: 56px;
-  }
+#menu{
+  font-weight: bold;
   
+}
+
+#menu li a{
+  font-size: 20px;
+}
+
+
   .header-text, .header-bg{
     display: none;
   }
+
+.about-club p{
+  font-size: 20px;
+}
+
+
+.all{
+  width: 70%;
+  height: 130px;
+}
+
+.all a{
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  align-items: center; 
+  padding-left: 40%;
+  padding-right: 40%;
+  }
+
 
   #trainers h2{
     font-size: 45px;
@@ -51,6 +73,15 @@ background: -moz-radial-gradient(bottom left, rgba(230,218,51,1), rgba(255, 255,
 
 #place{
   margin-left: 15px;
+}
+
+iframe{
+  width:500px;
+  height:350px;
+}
+
+#place p{
+  font-size: 20px;
 }
 
 .fab{
