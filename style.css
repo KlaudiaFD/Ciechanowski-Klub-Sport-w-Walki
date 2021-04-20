@@ -48,14 +48,14 @@ header{
   transform: translate(-50%, -50%);
   color: rgba(230,218,51,1);
   width: 300px;
-  height: 200px;
+  /* height: 100px; */
   text-align: center;
 }
 
 .header-text h1 {
   margin: 0px;
   margin-bottom: 5px;
-  font-size: 25px;
+  font-size: 23px;
   animation: backInDown;
   animation-duration: 1.3s;
   line-height: 40px !important;
@@ -67,6 +67,10 @@ h1 span{
   text-transform: uppercase;
 }
 
+.logos{
+  margin-top: 10px;
+  height: 80px;
+}
 
 /* informacje*/
 
@@ -175,7 +179,7 @@ background: linear-gradient(to bottom left, rgba(108, 109, 108, 1.0), rgba(255, 
 
 #contact h1{
   text-align: center;
-  color: yellow;
+  color: rgba(230,218,51,1);
   margin-top: 0px;
   font-size: 35px;
 }
@@ -248,4 +252,68 @@ iframe{
 .fab{
   font-size: 35px;
   color: #3b5998;
+}
+
+
+/*grafik*/
+
+.dev-graphic{
+  display: none;
+}
+
+#graphic-price{
+  margin-top: 30px;
+}
+
+th{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+  width: 15px;
+  
+}
+
+td{
+  font-weight: bold;
+  text-align: center;
+}
+
+.free{
+  color: rgb(7, 92, 7);
+}
+
+.kids1{
+  color:rgb(16, 16, 192);
+}
+
+.kids2{
+  color:rgb(75, 22, 105);
+}
+
+.kick{
+  color:rgb(158, 17, 17);
+}
+
+
+
+.price{
+  font-size: 35px;
+  color: rgba(230,218,51,1);
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.price-all p {
+  font-size: 20px;
+  margin: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.lol{
+  color: #181e68;
+  font-size: 26px !important;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }

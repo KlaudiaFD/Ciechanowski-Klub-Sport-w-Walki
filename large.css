@@ -89,3 +89,22 @@ iframe{
   color: #4c79db;
   font-size: 40px;
 }
+
+/*garafik*/
+
+.mobile-graphic{
+  display: none;
+}
+
+.dev-graphic{
+  display: flex;
+}
+
+
+.dev-graphic{
+  height: 350px;
+}
+
+th{
+  font-size: 22px;
+}
