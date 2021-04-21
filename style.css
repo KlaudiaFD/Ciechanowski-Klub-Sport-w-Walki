@@ -43,13 +43,14 @@ header{
 
 .header-text {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgba(230,218,51,1);
   width: 300px;
   /* height: 100px; */
   text-align: center;
+  margin-left: 0px;
 }
 
 .header-text h1 {
@@ -58,7 +59,7 @@ header{
   font-size: 23px;
   animation: backInDown;
   animation-duration: 1.3s;
-  line-height: 40px !important;
+  line-height: 30px !important;
 }
 
 h1 span{
@@ -66,10 +67,34 @@ h1 span{
   color: white;
   text-transform: uppercase;
 }
-
 .logos{
-  margin-top: 10px;
-  height: 80px;
+  margin-top: 15px;
+  text-align: center;
+  height: 70px;
+}
+
+.logos2{
+  height: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.logos1{
+  text-align: center;
+  height: 57px;
+}
+
+.teak-img{
+  position: absolute;
+  top: 65%;
+  width: 64px;
+  margin: 0px;
+}
+
+.teak{
+  filter:invert(90%);
+  float: left;
+  height: 200px;
 }
 
 /* informacje*/
@@ -265,12 +290,16 @@ iframe{
   margin-top: 30px;
 }
 
+tr{
+  width: 100%;
+}
+
 th{
   background-color: rgb(0, 0, 0);
   color: white;
   text-align: center;
-  width: 15px;
-  
+  width: 25px;
+  border-radius: 0px;
 }
 
 td{
