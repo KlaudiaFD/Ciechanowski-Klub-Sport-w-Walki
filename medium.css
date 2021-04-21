@@ -44,7 +44,10 @@ iframe{
   margin: 0px;
 }
 .teak{
-  filter:invert(90%);
+  -webkit-filter: invert(90%);
+  -moz-filter: invert(90%);
+  -o-filter: invert(90%);
+  -ms-filter: invert(90%);
   float: left;
   height: 300px;
 }
