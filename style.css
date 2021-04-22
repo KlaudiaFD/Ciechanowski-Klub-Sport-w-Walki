@@ -205,7 +205,11 @@ background: linear-gradient(to bottom left, rgba(108, 109, 108, 1.0), rgba(255, 
 
 
 .parallax-container {
-  height: 300px;
+  height: 270px;
+}
+
+.parallax img{
+  height: 320px;
 }
 
 

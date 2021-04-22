@@ -18,3 +18,11 @@ header{
     line-height: 45px !important;
   }
 
+.teak{
+  height: 200px;
+}
+
+.teak-img{
+   position: absolute;
+   top: 57%;
+}
