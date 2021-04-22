@@ -18,14 +18,14 @@ header{
     line-height: 45px !important;
   }
 
-.teak{
-  height: 200px;
-}
-
-.teak-img{
-   position: absolute;
-   top: 57%;
-}
+  .teak-img{
+    position: absolute;
+    top: 75%;
+  }
+  
+  .teak{
+    height: 200px;
+  }
 
 .parallax-container {
   height: 400px;

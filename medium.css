@@ -37,8 +37,11 @@ iframe{
   height: 80px;
 }
 
-.teak{
+.teak-img{
   position: absolute;
-  top: -40px;
+  top: 70%;
+}
+
+.teak{
   height: 260px;
 }
