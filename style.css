@@ -63,7 +63,7 @@ header{
 }
 
 .teak{
-  height: 250px;
+  height: 220px;
 }
 
 h1 span{
@@ -90,7 +90,7 @@ h1 span{
 
 .teak-img{
   position: absolute;
-  top: 60%;
+  top: 52%;
   width: 64px;
   margin: 0px;
 }
