@@ -62,6 +62,10 @@ header{
   line-height: 30px !important;
 }
 
+.teak{
+  height: 250px;
+}
+
 h1 span{
   font-weight: bold;
   color: white;
@@ -86,19 +90,19 @@ h1 span{
 
 .teak-img{
   position: absolute;
-  top: 65%;
+  top: 60%;
   width: 64px;
   margin: 0px;
 }
 
-.teak{
+/* .teak{
   -webkit-filter: invert(90%);
   -moz-filter: invert(90%);
   -o-filter: invert(90%);
   -ms-filter: invert(90%);
   float: left;
   height: 200px;
-}
+} */
 
 /* informacje*/
 
@@ -268,19 +272,6 @@ input:checked+div+input+div+input+div .carusel__arrow {right: 0;}
 input:checked+div .carusel__arrow:before {content: '❰';}
 input:checked+div+input+div+input+div .carusel__arrow:before{content: '❱';}
 
-.footer{
-  background-color: rgb(99, 99, 99);
-}
-
-iframe{
-  width:350px;
-  height:250px;
-}
-
-.fab{
-  font-size: 35px;
-  color: #3b5998;
-}
 
 
 /*grafik*/
@@ -348,4 +339,32 @@ td{
   font-size: 26px !important;
   padding-top: 10px;
   padding-bottom: 20px;
+}
+
+
+
+/*footer*/
+
+.footer{
+  background-color: rgb(99, 99, 99);
+}
+
+iframe{
+  width:350px;
+  height:250px;
+}
+
+.fab{
+  font-size: 35px;
+  color: #3b5998;
+}
+
+.fas{
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+#place a{
+  font-size: 20px;
+  color: white;
 }

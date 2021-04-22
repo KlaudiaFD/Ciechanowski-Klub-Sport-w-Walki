@@ -12,6 +12,7 @@ header{
   margin: 0px;
 }
 
+
 #menu{
   font-weight: bold;
   
@@ -19,6 +20,23 @@ header{
 
 #menu li a{
   font-size: 20px;
+}
+
+.obrazki{
+  position: absolute;
+  left: 1%;
+  height: 70px;
+  top: -1%;
+}
+
+#menu img{
+  margin: 0px;
+  margin-left: 15px;
+  height: 60px;
+}
+
+.logos{
+  height: 70px !important;
 }
 
 

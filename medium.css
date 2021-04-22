@@ -37,17 +37,8 @@ iframe{
   height: 80px;
 }
 
-.teak-img{
-  position: absolute;
-  top: 53%;
-  width: 64px;
-  margin: 0px;
-}
 .teak{
-  -webkit-filter: invert(90%);
-  -moz-filter: invert(90%);
-  -o-filter: invert(90%);
-  -ms-filter: invert(90%);
-  float: left;
+  position: absolute;
+  top: -40px;
   height: 300px;
 }
