@@ -126,3 +126,12 @@ iframe{
 th{
   font-size: 22px;
 }
+
+
+.parallax-container {
+  height: 400px;
+}
+
+.parallax img{
+  height: 980px;
+}

@@ -26,3 +26,11 @@ header{
    position: absolute;
    top: 57%;
 }
+
+.parallax-container {
+  height: 400px;
+}
+
+.parallax img{
+  height: 900px;
+}
