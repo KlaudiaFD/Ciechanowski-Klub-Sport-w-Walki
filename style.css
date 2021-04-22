@@ -97,6 +97,21 @@ h1 span{
   margin: 0px;
 }
 
+.kick1{
+  position: absolute;
+  text-align: center;
+  color: rgb(187, 184, 184);
+  width: 100%;
+}
+
+.kick1 p  {
+  text-transform:uppercase;
+  align-items: center;
+  padding:5px;
+  margin-bottom: 15px;
+  font-size: 25px;
+  font-weight: bold;
+}
 
 /* informacje*/
 
@@ -177,12 +192,7 @@ h1 span{
   margin-bottom: 0px;
 }
 
-#trainers{
-  /* background: rgba(108, 109, 108, 1.0);
-background: -webkit-linear-gradient(top right, rgba(108, 109, 108, 1.0), rgba(255, 255, 255, 1.0));
-background: -moz-linear-gradient(top right, rgba(108, 109, 108, 1.0), rgba(255, 255, 255, 1.0));
-background: linear-gradient(to bottom left, rgba(108, 109, 108, 1.0), rgba(255, 255, 255, 1.0)); */
-}
+/*trainers*/
 
 .container{
   width: 100vw !important;
@@ -194,7 +204,7 @@ background: linear-gradient(to bottom left, rgba(108, 109, 108, 1.0), rgba(255, 
 }
 
 #trainers img{
-  width: 250px;
+  width: 150px;
 }
 
 
@@ -282,15 +292,12 @@ input:checked+div+input+div+input+div .carusel__arrow:before{content: '❱';}
   margin-top: 30px;
 }
 
-tr{
-  width: 100%;
-}
 
 th{
   background-color: rgb(0, 0, 0);
   color: white;
   text-align: center;
-  width: 25px;
+  width: 25%;
   border-radius: 0px;
 }
 
