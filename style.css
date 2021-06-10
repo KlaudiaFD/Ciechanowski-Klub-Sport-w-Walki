@@ -9,9 +9,17 @@ header{
   
 }
 
+@font-face {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Arial');
+  font-display: swap;
+}
+
 .header-img{
   position: relative;
-  background: url(img/rekawice1.jpg);
+  background: url(img/rekawice1.jpeg);
   background-size: cover;
   background-position: center;
 }
@@ -48,7 +56,6 @@ header{
   transform: translate(-50%, -50%);
   color: rgba(230,218,51,1);
   width: 300px;
-  /* height: 100px; */
   text-align: center;
   margin-left: 0px;
 }
@@ -72,28 +79,26 @@ h1 span{
 .logos{
   margin-top: 15px;
   text-align: center;
-  height: 70px;
 }
 
 .logos2{
-  height: 60px;
   margin-left: 10px;
   margin-right: 10px;
 }
 
 .logos1{
   text-align: center;
-  height: 57px;
 }
 
 .teak{
-  height: 220px;
+  height: 230px;
+  width: 90px;
 }
 
 .teak-img{
   position: absolute;
   top: 63%;
-  width: 64px;
+  width: 80px;
   margin: 0px;
 }
 
@@ -132,20 +137,16 @@ h1 span{
   align-items: center;
   margin-bottom: 10px;
   border-radius: 10px;
-  background-image: url(img/board-784363_640.jpg);
+  background-image: url(img/board-784363_640.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* background: rgb(255,255,255);
-  background: linear-gradient(160deg, rgba(255,255,255,1) 0%, rgba(0,116,255,1) 100%);  */
 }
 
 .graphic-information{
   display: flex;
-  background-image: url(img/calendar-660670_640.jpg);
+  background-image: url(img/calendar-660670_640.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* background: rgb(255,255,255);
-  background: linear-gradient(212deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);  */
   width: 70%;
   height: 100px;
   justify-content: center;
@@ -158,11 +159,9 @@ h1 span{
 
 .gallery-information{
   display: flex;
-  background-image: url(img/worek.jpg);
+  background-image: url(img/worek.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* background: rgb(255,255,255);
-  background: linear-gradient(159deg, rgba(255,255,255,1) 0%, rgba(230,218,51,1) 100%);  */
   width: 70%;
   height: 100px;
   justify-content: center;
@@ -172,11 +171,10 @@ h1 span{
 }
 
 .all a{
+  display: block;
   font-size: 30px;
   color: rgb(255, 255, 255);
   align-items: center;
-  padding-left: 20%;
-  padding-right: 20%;
 }
 
 
@@ -360,16 +358,41 @@ iframe{
 }
 
 .fab{
-  font-size: 35px;
-  color: #3b5998;
+  font-size: 50px;
+  color: #5c86e2;
 }
 
-.fas{
+.fas, .far{
   font-size: 20px;
   margin-right: 15px;
+}
+
+.far{
+  margin-bottom: 40px;
 }
 
 #place a{
   font-size: 20px;
   color: white;
+}
+
+.ciech{
+  margin-top: 15px;
+}
+
+.ciech img{
+  height: 80px;
+}
+
+.ciech p{
+  font-size: 20px;
+  margin: 0px;
+}
+
+.ciech-info{
+  margin: 20px 0 20px 0;
+}
+
+.ciech-info a{
+  color: rgb(255, 255, 255);
 }

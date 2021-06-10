@@ -23,18 +23,15 @@ iframe{
 
 .logos{
   margin-top: 15px;
-  height: 90px;
 }
 
 .logos2{
-  height: 80px;
   margin-left: 10px;
   margin-right: 10px;
 }
 
 .logos1{
   text-align: center;
-  height: 80px;
 }
 
 .teak-img{
@@ -44,4 +41,5 @@ iframe{
 
 .teak{
   height: 260px;
+  width: 90px;
 }

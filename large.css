@@ -1,10 +1,5 @@
-header{
-  /* background: rgb(255,255,255);
-  background: linear-gradient(269deg, rgba(255,255,255,1) 0%, rgba(69,69,68,1) 100%);  */
-}
-
 .header-img{
-  background: url(img/tło.png);
+  background: url(img/tło.jpeg);
   background-size: cover;
   background-position: center;
   min-height: 93%;
@@ -58,8 +53,6 @@ header{
   font-size: 40px;
   color: rgb(255, 255, 255);
   align-items: center; 
-  padding-left: 40%;
-  padding-right: 40%;
   }
 
 
@@ -104,8 +97,8 @@ iframe{
 
 .fab{
   margin-top: 11px;
-  color: #4c79db;
-  font-size: 40px;
+  color: #5c86e2;
+  font-size: 60px;
 }
 
 /*garafik*/
@@ -118,6 +111,13 @@ iframe{
   display: flex;
 }
 
+.price-all p {
+  font-size: 30px;
+}
+
+.lol{
+  font-size: 34px !important;
+}
 
 .dev-graphic{
   height: 350px;
@@ -133,5 +133,20 @@ th{
 }
 
 .parallax img{
-  height: 980px;
+  height: 1000px;
+}
+
+/* footer */
+
+.ciech img{
+  height: 100px;
+}
+
+.ciech p{
+  font-size: 25px;
+  margin: 0px;
+}
+
+.ciech-info{
+  margin: 50px 0 20px 0;
 }
